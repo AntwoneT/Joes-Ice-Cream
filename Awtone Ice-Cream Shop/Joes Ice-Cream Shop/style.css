@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.imgBg{
+    height: 100vh;
+    background: url(https://th.bing.com/th/id/OIP.oSxUfDvFDmJLNXgc9zowoQHaE7?w=252&h=180&c=7&o=5&dpr=1.25&pid=1.7);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 900px;
+}
+.nav-bar{
+    display: flex;
+    padding: 20px 60px;
+}
+.nav-logo{
+    padding: 4px 8px;
+    background: #ec7575;
+    border-radius: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-linksul li:hover{
+    width: 100%;
+}
+/* .nav-links ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ff6b6b;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} */
+/* .nav-links ul li:hover::after{
+    width: 100%;
+} */
+.btn{
+    margin: 2px 0;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    font-weight: normal;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-links .btn{
+    color: #fff;
+    font-size: 14px;
+    float: right;
+}
+
+.banner-title{
+    margin: 150px;
+    color: #FFF8D9;
+}
+
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+.banner-title h1 span{
+    color: #ff6b6b;
+}
+
+.banner-title .btn{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    background-color:darkcyan;
+}
+h2{
+    color: #ec7575;
+}
+h3{
+    color: rgb(255, 8, 0);
+}
+
+
